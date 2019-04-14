@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+</head>
+  <body>
+    <header class="title-text">
+    <h1>Bob's Burgers</h1>
+    </header>
+
+    <ul class="nav nav-pills nav-bar">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="index"><i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html" id="menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contactus.html" id="contact">Contact Us</a>
+      </li>
+    </ul>
+
+      <noscript>
+        <div class="alert alert-danger" role="alert">
+          This site is best viewed with JavaScript enabled
+        </div>
+      </noscript>
+
+      <div>
+        <section class="container">
+          <form class="needs-validation" name="reachout" novalidate>
+            <div class="form-group row">
+              <label for="name" class="col-sm-3 col-form-label"><b>Name:</b></label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                <div class="invalid-feedback"><b>Please enter a name</b></div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-sm-3 col-form-label"><b>Email:</b></label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="email" placeholder="bobbelcher@burger.com" required>
+                <div class="invalid-feedback"><b>Please enter an email address</b></div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="phone" class="col-sm-3 col-form-label"><b>Phone Number:</b></label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="phone" placeholder="123-456-7890" required>
+                <div class="invalid-feedback"><b>Please enter a phone number</b></div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inquiry" class="col-sm-3 col-form-label"><b>Reason for Inquiry:</b></label>
+                <div class="col-sm-9">
+                  <select id="inquiry" class="form-control">
+                    <option>Catering</option>
+                    <option>Private Party</option>
+                    <option>Feedback</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+            <div class="form-group row">
+              <label for="info" class="col-sm-3 col-form-label"><b>Additional Information:</b></label>
+              <div class="col-sm-9">
+                <textarea id="info" class="form-control" required></textarea>
+                <div class="invalid-feedback"><b>Please enter any additional information.</b></div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="customer" class="col-sm-3 col-form-label"><b>Have you been to the restaurant?</b></label>
+              <div class="col-sm-8 left-bump">
+                <div class="form-group row">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+                    <label class="custom-control-label" for="customControlValidation2">Yes</label>
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+                    <label class="custom-control-label" for="customControlValidation3">No</label>
+                    <div class="invalid-feedback"><b>Please enter if you have previously visited the resturant</b></div>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="contact" class="col-sm-3 col-form-label"><b>Best days to contact you:</b></label>
+              <div class="col-sm-9">
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" value="" name="day">M
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" value="" name="day">T
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" value="" name="day">W
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" value="" name="day">Th
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" value="" name="day">F
+                </div>
+
+                <div id="invalid-day" class="bad-job">
+                  <b>Please select what day works best</b>
+                </div>
+                <div id="valid-day" class="good-job">
+                  Looks good!
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Send Request</button>
+
+          </form>
+        </section>
+      </div>
+
+
+      <footer>
+        <p>123 Ocean Avenue, Ocean City, New Jersey</p>
+        <p>555-555-5555</p>
+      </footer>
+
+      <script>
+        (function() {
+          'use strict';
+          window.addEventListener('load' , function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                //error counter
+                var i=0;
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  i++;
+                }
+                form.classList.add('was-validated');
+
+                var group = document.reachout.day;
+                for (var j=0; j<group.length; j++) {
+                  if (group[j].checked) {
+                    var x = document.getElementById("valid-day");
+                    x.style.display = "block";
+                    var y = document.getElementById("invalid-day");
+                    y.style.display = "none";
+                    break;
+                  }
+                }
+
+                if (j==group.length) {
+                  var x = document.getElementById("invalid-day");
+                  x.style.display = "block";
+                  var y = document.getElementById("valid-day");
+                  y.style.display = "none";
+                  i++;
+                }
+
+                console.log(i);
+                //if there were no errors, success alert will display
+                if (i === 0) {
+                  alert("Thank you for your submission. We will reach out to you soon");
+                }
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+
+  </body>
+</html>

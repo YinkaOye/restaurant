@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:700');
+
+
+header {
+  color: #f0262a;
+  text-align: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #f0262a;
+  text-shadow: 2px 2px #000000;
+}
+
+body {
+  background-color: #fcdd60;
+
+}
+
+footer {
+  text-align: center;
+  background-color: #95d244;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red !important;
+  font-weight: 900 !important;
+}
+
+.nav-bar {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.buffer {
+  margin: 20px auto;
+}
+
+.title-text {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.table-wrapper {
+  background: rgba(255, 255, 255, 0.85);
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 40px;
+}
+
+.black-box {
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.white-box {
+  padding: 40px;
+  margin: 50px auto;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.85);
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.burger-box {
+  width: 100%;
+  border: 3px dashed red;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  width: 150px;
+  color: red;
+}
+
+.good-job {
+  display: none;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #28a745;
+}
+
+.bad-job {
+  display: none;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.left-bump {
+  margin-left:10px
+}
